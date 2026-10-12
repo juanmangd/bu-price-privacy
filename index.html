@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bu Price – Privacy policy</title>
+    <meta name="description" content="Privacy policy for the Bu Price app." />
+    <style>
+      :root {
+        --bg: #ffffff;
+        --text: #111827;
+        --muted: #4b5563;
+        --accent: #0b5fff;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #111827;
+          --text: #f9fafb;
+          --muted: #d1d5db;
+          --accent: #93c5fd;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font: 18px/1.6 -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      }
+      main {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 32px 16px 64px;
+      }
+      h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+        margin: 0 0 4px;
+      }
+      h2 {
+        font-size: 1.25rem;
+        margin: 32px 0 4px;
+      }
+      p {
+        margin: 0;
+      }
+      .muted {
+        color: var(--muted);
+      }
+      a {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Bu Price privacy policy</h1>
+      <p class="muted">Last updated: October 12, 2026</p>
+
+      <!-- Keep these sections identical to strings.privacy in src/strings.ts
+           (tests/docs/privacyPage.test.ts checks this). -->
+      <h2>The short version</h2>
+      <p>Your prices, items and stores are saved only on this phone. We have no accounts, no ads and no tracking.</p>
+
+      <h2>What leaves your phone</h2>
+      <p>When you scan a barcode we don’t know yet, only the barcode number is sent to Open Food Facts to look up the item’s name. Nothing about you is sent with it.</p>
+
+      <h2>Camera</h2>
+      <p>The camera is used only to read barcodes. No pictures or videos are taken or saved.</p>
+
+      <h2>Location</h2>
+      <p>If you choose “I’m at this store now”, the store’s location is saved on this phone so Bu Price can pick that store next time. It is never sent anywhere.</p>
+
+      <h2>Your choices</h2>
+      <p>You can save a copy of your data, or delete all of it, any time in Settings. Deleting the app also deletes your data.</p>
+
+      <h2>Questions</h2>
+      <p>Email juanman.gd@gmail.com and we’ll be happy to help.</p>
+
+      <h2>Open Food Facts</h2>
+      <p>
+        Barcode lookups are answered by <a href="https://world.openfoodfacts.org">Open Food Facts</a>, a free
+        database built by volunteers. Their own privacy policy applies to the lookups they receive.
+      </p>
+    </main>
+  </body>
+</html>
